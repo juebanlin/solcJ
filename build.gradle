@@ -1,5 +1,5 @@
 group 'org.ethereum'
-version '0.4.10'
+version '0.4.14'
 
 
 buildscript {
@@ -63,15 +63,3 @@ uploadArchives {
         }
     }
 }
-
-//uploadArchives {
-//    repositories {
-//        mavenDeployer {
-//            pom.groupId = "org.ethereum"
-//            pom.artifactId = "solcJ-all"
-//            pom.version = "0.4.10"
-//            repository(url: "file://localhost/tmp/myRepo/")
-//        }
-//    }
-//}
-
