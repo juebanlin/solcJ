@@ -10,7 +10,7 @@ cd ..
 mkdir -p solidity-builds
 cd solidity-builds
 export DIR=`pwd`
-export VERSION="0.4.10"
+export VERSION="0.4.14"
 git clone --recursive https://github.com/ethereum/solidity.git ${DIR}/solidity-${VERSION}
 cd ${DIR}/solidity-${VERSION}
 git checkout tags/v${VERSION}
