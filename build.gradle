@@ -55,3 +55,23 @@ test {
         println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
     }
 }
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://repo")
+        }
+    }
+}
+
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            pom.groupId = "org.ethereum"
+//            pom.artifactId = "solcJ-all"
+//            pom.version = "0.4.10"
+//            repository(url: "file://localhost/tmp/myRepo/")
+//        }
+//    }
+//}
+
